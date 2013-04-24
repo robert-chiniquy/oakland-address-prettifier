@@ -1,0 +1,31 @@
+{
+  "name": "oakland-address-prettifier",
+  "version": "0.0.0",
+  "description": "Turn randomly-spellled, -spaced, -capitalized, wobbly addresses into pretty addresses",
+  "main": "index.js",
+  "bin": {
+    "pretty-oakland-address": "gen-tests.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "csv": "~0.3.0",
+    "optimist": "~0.4.0",
+    "parsimmon": "~0.0.5",
+    "underscore": "~1.4.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "oakland",
+    "address",
+    "geocode"
+  ],
+  "author": "Robert Chiniquy"
+}
