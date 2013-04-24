@@ -13,7 +13,7 @@ prettifier.zap('876 MLK', function(err, prettier) {
 Even dramatically misspelled street names could be corrected if they occur in intersections, as the cross-street is a big hint.
 Bonus: if a street exists only within one ZIP code, the street name lets you supply the ZIP easy.
 
-:warning: reality
+reality :warning:
 =========
 * street names all look alike, you need *every single street* in your dictionary to do this right
 * A single OSM API bbox query doesn't return all the streets in Oakland (going to planet.osm for this)
